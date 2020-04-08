@@ -1,7 +1,7 @@
 def QuickBogo(array):
   ### A recursively defined stupid, random bastardisation of quicksort
   ### A galaxy brain divide and conquer optimisation of bogosort
-  ### Complexity of O(2^n log(n)), I think?
+  ### Complexity of O(2^n), I think?
   import random
   if len(array) == 1: return array
   if len(array) == 0: return []
